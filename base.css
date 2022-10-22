@@ -1,0 +1,96 @@
+html,
+body {
+  margin: 0;
+}
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  background-color: white;
+}
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+  min-height: auto;
+}
+.menu {
+  width: 7%;
+  background-image: linear-gradient(
+    to bottom,
+    #195883,
+    #04bfad,
+    #0db9b9,
+    #04bfad,
+    #195883
+  );
+
+  padding: 10px 20px 0px;
+}
+.header {
+  background-image: linear-gradient(
+    to right,
+    #195883,
+    #04bfad,
+    #0db9b9,
+    #04bfad,
+    #195883
+  );
+  min-height: 75px;
+}
+.content {
+  background-color: white;
+  height: 77vh;
+  padding: 25px;
+}
+.content p {
+  text-align: justify;
+  padding-right: 30em;
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 18px;
+}
+.content table {
+  border-style: none;
+}
+.content table tr:hover td {
+  background-color: #858383;
+  cursor: pointer;
+}
+.content table thead th {
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  background-color: white;
+  min-height: 10vh;
+}
+.listinha {
+  list-style: none;
+}
+a.nav-link:link {
+  color: black;
+  text-decoration: none;
+}
+a.nav-link:visited {
+  color: black;
+  text-decoration: none;
+}
+a.nav-link:hover {
+  color: black;
+  text-decoration: none;
+}
+a.nav-link:active {
+  color: black;
+  text-decoration: none;
+}
+.nav-link {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
